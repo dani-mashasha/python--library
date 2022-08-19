@@ -124,7 +124,7 @@ books_data = collection.find({})
 shelves = [Shelf(),Shelf(),Shelf()]
 initial_shelves(books_data, shelves)
 
-##Creat library
+##Create library
 library = Library(shelves)
 
 ##Starts the program
